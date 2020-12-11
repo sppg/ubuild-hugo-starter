@@ -14,3 +14,13 @@ fields:
     wysiwyg: true
     schema:
       format: html
+- name: test
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: test
+  description: test
